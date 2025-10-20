@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>All About F1 IDN — Watch Live F1</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome (icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="nav-wrap">
+    <div class="container nav">
+      <div class="brand">
+        <span class="brand-main">All About</span>
+        <span class="brand-accent">F1.IDN</span>
+      </div>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#packages">Packages</a>
+        <a href="#services">Results</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn small ghost">Contact</a>
+      </nav>
+
+      <div class="cta">
+        <a href="#watch" class="btn primary">Start NOW!</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="watch" class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-inner">
+      <span class=""></span>
+
+      <h1 class="hero-title">
+        Experience <span class=>Formula 1</span><br/>
+        Like Never Before
+      </h1>
+
+      <p class="hero-sub">Watch live races, news update, Race Schedule, and Race Results.</p>
+
+       <div class="hero-cta">
+        <a href="schedule.html" class="btn view schedule">
+          <div class="hero-buttons flex gap-4 mt-6">
+  <!-- Tombol Watch Live -->
+  <button class="btn-watch-live">
+    <i class="fa-solid fa-play"></i>
+    Watch Live Now
+  </button>
+
+    <!-- Tombol View Schedule -->
+  <button class="btn-view-schedule">
+    <i class="fa-solid fa-calendar"></i>
+    View Schedule
+  </button>
+</div>
+</a>
+
+    
+    <!-- decorative racing car (PNG with transparent bg) -->
+    <img src="https://pngimg.com/uploads/formula_1/formula_1_PNG75.png" alt="" class="hero-car" aria-hidden="true" />
+  </section>
+
+    <!-- STATS BAR -->
+  <section class="stats">
+    <div class="container stats-grid">
+      <div class="stat">
+        <h3>24/7</h3>
+        <p>Live Coverage</p>
+      </div>
+      <div class="stat">
+        <h3>HD 4K</h3>
+        <p>Quality Stream</p>
+      </div>
+      <div class="stat">
+        <h3>FREE</h3>
+        <p>No Subscription</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PACKAGES -->
+  <section id="packages" class="section-dark">
+    <div class="container section-head">
+      <h2>Choose Your <span class=>Streaming Package</span></h2>
+      <p class="sub">Select the perfect viewing experience for your F1 passion</p>
+    </div>
+
+    <div class="container card-row">
+      <article class="card">
+        <div class="card-icon"><i class="fa fa-tv"></i></div>
+        <h3>Main Broadcast</h3>
+        <p class="muted">Primary race coverage with expert commentary</p>
+        <ul class="checklist">
+          <li>Live race streams in HD</li>
+          <li>Pre and post-race analysis</li>
+          <li>Multi-language commentary</li>
+          <li>Instant replays</li>
+        </ul>
+        <a class="btn ghost wide" href="#">Start Watching</a>
+      </article>
+
+      <article class="card popular">
+        <div class="badge">POPULAR</div>
+        <div class="card-icon"><i class="fa fa-video"></i></div>
+        <h3>Premium Experience</h3>
+        <p class="muted">Enhanced viewing with multiple camera angles</p>
+        <ul class="checklist">
+          <li>Everything in Main Broadcast</li>
+          <li>Onboard camera feeds</li>
+          <li>Pit lane channel</li>
+          <li>Driver tracker & team radio</li>
+        </ul>
+        <a class="btn primary wide" href="#">Access Premium</a>
+      </article>
+
+      <article class="card">
+        <div class="card-icon"><i class="fa fa-signal"></i></div>
+        <h3>Data & Stats</h3>
+        <p class="muted">Live timing and telemetry for true fans</p>
+        <ul class="checklist">
+          <li>Real-time race data</li>
+          <li>Live timing screens</li>
+          <li>Driver comparisons</li>
+          <li>Historical statistics</li>
+        </ul>
+        <a class="btn ghost wide" href="#">Access Now</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- FEATURES / SERVICES -->
+  <section id="services" class="results-section">
+  <div class="container">
+    <h2 class="section-title">F1 2025 Race Results</h2>
+    <p class="section-subtitle"></p>
+
+    <div class="race-table">
+      <div class="race-header">
+        <span>Round</span>
+        <span>Grand Prix</span>
+        <span>Winner</span>
+        <span>Team</span>
+        <span>Date</span>
+      </div>
+
+      <div class="race-row" onclick="showDetails('Bahrain GP')">
+        <span>1</span>
+        <span>Australia GP</span>
+        <span>Lando Norris</span>
+        <span>Mclaren</span>
+        <span>16 Mar 2025</span>
+      </div>
+
+      <div class="race-row" onclick="showDetails('Saudi Arabian GP')">
+        <span>2</span>
+        <span>china GP</span>
+        <span>Oscar Piastri</span>
+        <span>Mclaren</span>
+        <span>23 Mar 2025</span>
+      </div>
+
+      <div class="race-row" onclick="showDetails('Australian GP')">
+        <span>3</span>
+        <span>Japan GP</span>
+        <span>Max Verstappen</span>
+        <span>Red Bull Racing</span>
+        <span>06 Apr 2025</span>
+      </div>
+
+      <div class="race-row" onclick="showDetails('Japanese GP')">
+        <span>4</span>
+        <span>Bahrain GP</span>
+        <span>Oscar Piastri</span>
+        <span>Mclaren</span>
+        <span>13 Apr 2025</span>
+      </div>
+
+       <div class="race-row" onclick="showDetails('Japanese GP')">
+        <span></span>
+        <span>Show All Results</span>
+      </div>
+  </div>
+
+  <!-- Modal Popup -->
+  <div id="raceModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <h3 id="modalTitle">Race Details</h3>
+      <table id="podiumTable">
+        <thead>
+          <tr>
+            <th>Position</th>
+            <th>Driver</th>
+            <th>Team</th>
+            <th>Points</th>
+          </tr>
+        </thead>
+        <tbody id="podiumBody">
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials" class="section-dark">
+    <div class="container section-head">
+      <h2>What <span class="highlight">F1 Fans</span> Say</h2>
+      <p class="sub">Join thousands of satisfied viewers across Indonesia</p>
+    </div>
+
+    <div class="container testimonial-row">
+      <blockquote class="testimonial card-soft">
+        <p>"The streaming quality is amazing and the premium features are very complete and suit my wishes as a true F1 fan."</p>
+        <cite>— Jonathan, Jakarta</cite>
+      </blockquote>
+
+      <blockquote class="testimonial card-soft">
+        <p>"Feels premium, UI and the replays make catching up super easy."</p>
+        <cite>— Waguri, Bandung</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="center"><span class="highlight">All About F1 IDN</span></h2>
+      <p class="muted center max-800">
+        We bring Indonesian F1 fans closer to the action live streams, schedules, stats, and curated content in one place.
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section-dark">
+    <div class="container">
+      <h2 class="center">Contact Us</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Your name" required />
+        <input type="email" placeholder="Email" required />
+        <textarea rows="5" placeholder="Message" required></textarea>
+        <div class="form-actions">
+          <button class="btn primary" type="submit">Send Message</button>
+          <button class="btn ghost" type="reset">Reset</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-row">
+        <div>© <span id="year"></span> All About F1 IDN</div>
+        <div class="socials">
+          <a href="#" aria-label="twitter"><i class="fa fa-twitter"></i></a>
+          <a href="#" aria-label="instagram"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Small JS: menu toggle + reveal-on-scroll + year -->
+  <script>
+    // Mobile menu toggle
+    const menuBtn = document.getElementById('menuBtn');
+    const navLinks = document.getElementById('navLinks');
+    menuBtn && menuBtn.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+    });
+
+    // Reveal on scroll (simple)
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) e.target.classList.add('in-view');
+      });
+    }, {threshold: 0.12});
+
+    document.querySelectorAll('.card, .feature, .testimonial, .section-head, .hero-inner').forEach(el => {
+      io.observe(el);
+    });
+
+    // footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
