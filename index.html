@@ -1,4 +1,19 @@
 <!DOCTYPE html>
+<script>
+  const isRegistered = localStorage.getItem("isRegistered");
+  const isLoggedIn = localStorage.getItem("isLoggedIn");
+
+  // kalau belum daftar → arahkan ke register.html
+  if (!isRegistered) {
+    window.location.href = "register.html";
+  }
+  // kalau sudah daftar tapi belum login → ke login.html
+  else if (!isLoggedIn) {
+    window.location.href = "login.html";
+  }
+  // kalau sudah login → biarkan tetap di index.html
+</script>
+
 <html lang="en">
 <head>
   <meta charset="utf-8" />
