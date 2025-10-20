@@ -1,4 +1,9 @@
 <script>
+  if (localStorage.getItem("isLoggedIn") !== "true") {
+    window.location.href = "register.html";
+  }
+</script>
+<script>
   window.location.href = "register.html";
 </script>
 <!DOCTYPE html>
