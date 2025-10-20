@@ -1,11 +1,28 @@
-<script>
-  if (localStorage.getItem("isLoggedIn") !== "true") {
-    window.location.href = "register.html";
-  }
-</script>
-<script>
-  window.location.href = "register.html";
-</script>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All About F1 IDN</title>
+</head>
+<body>
+  <h1>Selamat datang di All About F1 IDN!</h1>
+
+  <button onclick="logout()">Logout</button>
+
+  <script>
+    // cek login
+    if (localStorage.getItem("isLoggedIn") !== "true") {
+      window.location.href = "login.html";
+    }
+
+    function logout() {
+      localStorage.removeItem("isLoggedIn");
+      window.location.href = "login.html";
+    }
+  </script>
+</body>
+</html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
