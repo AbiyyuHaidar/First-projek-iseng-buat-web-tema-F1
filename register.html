@@ -77,3 +77,17 @@
   </script>
 </body>
 </html>
+<script>
+  const registerForm = document.querySelector("form");
+
+  registerForm.addEventListener("submit", function (e) {
+    e.preventDefault();
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const password = document.getElementById("password").value;
+
+    localStorage.setItem("user", JSON.stringify({ name, email, password }));
+    alert("Registrasi berhasil! Silakan login.");
+    window.location.href = "login.html";
+  });
+</script>
