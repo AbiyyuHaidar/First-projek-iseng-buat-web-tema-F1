@@ -11,7 +11,7 @@ Website ini menyajikan berbagai fitur seperti:
 
 ## 🌐 Live Demo
 Lihat website-nya secara langsung di sini:  
-👉 [**[All About F1 IDN - Live Site](https://abiyyuhidar.github.io/First-projek-iseng-buat-web-tema-F1/)**](https://abiyyuhaidar.github.io/First-projek-iseng-buat-web-tema-F1/)  
+👉 https://abiyyuhaidar.github.io/First-projek-iseng-buat-web-tema-F1/
 
 ---
 
