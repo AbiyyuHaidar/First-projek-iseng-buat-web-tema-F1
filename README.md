@@ -13,6 +13,8 @@ Website ini menyajikan berbagai fitur seperti:
 Lihat website-nya secara langsung di sini:  
 👉 https://abiyyuhaidar.github.io/First-projek-iseng-buat-web-tema-F1/
 
+mohon maaf kalau masih ada bug, karena web ini masih dalam tahap pengembangan dan tujuan awal nya hanya digunakan sebagai tugas kuliah😇
+
 ---
 
 ## 🧠 Teknologi yang Digunakan
