@@ -38,6 +38,13 @@
         <a href="#about">About</a>
         <a href="#contact" class="btn small ghost">Contact</a>
       </nav>
+        <script>
+    function logout() {
+      localStorage.removeItem("isLoggedIn");
+      window.location.href = "login.html";
+    }
+  </script>
+</body>
 
       <div class="cta">
         <a href="#watch" class="btn primary">Start NOW!</a>
